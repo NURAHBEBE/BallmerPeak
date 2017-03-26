@@ -1,25 +1,87 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BallmerPeak" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="body weight (lbs)" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MV6-CR-NC1">
+                                <rect key="frame" x="63" y="141" width="195" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="P5V-70-fSF">
+                                <rect key="frame" x="63" y="20" width="195" height="29"/>
+                                <segments>
+                                    <segment title="Male"/>
+                                    <segment title="Female"/>
+                                </segments>
+                            </segmentedControl>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="# drinks" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8Hx-cP-WyU">
+                                <rect key="frame" x="63" y="83" width="195" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="hours since first drink" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Lx-0b-RM6">
+                                <rect key="frame" x="63" y="208" width="195" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="hours since last drink" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kvb-y4-2HE">
+                                <rect key="frame" x="63" y="269" width="195" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJR-lw-siD">
+                                <rect key="frame" x="63" y="367" width="195" height="30"/>
+                                <state key="normal" title="Calculate Ballmer Peak Time"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kvb-y4-2HE" firstAttribute="trailing" secondItem="qJR-lw-siD" secondAttribute="trailing" id="354-Pn-1Tx"/>
+                            <constraint firstItem="P5V-70-fSF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AUS-n5-LWX"/>
+                            <constraint firstItem="Kvb-y4-2HE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="B9M-Ed-4DR"/>
+                            <constraint firstItem="P5V-70-fSF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BgK-Ri-7p9"/>
+                            <constraint firstItem="4Lx-0b-RM6" firstAttribute="trailing" secondItem="Kvb-y4-2HE" secondAttribute="trailing" id="GFq-sT-py6"/>
+                            <constraint firstItem="MV6-CR-NC1" firstAttribute="top" secondItem="8Hx-cP-WyU" secondAttribute="bottom" constant="28" id="IAo-hf-yyx"/>
+                            <constraint firstItem="P5V-70-fSF" firstAttribute="trailing" secondItem="8Hx-cP-WyU" secondAttribute="trailing" id="Lc6-1r-oAQ"/>
+                            <constraint firstItem="MV6-CR-NC1" firstAttribute="leading" secondItem="4Lx-0b-RM6" secondAttribute="leading" id="MXq-yJ-T8n"/>
+                            <constraint firstItem="Kvb-y4-2HE" firstAttribute="leading" secondItem="qJR-lw-siD" secondAttribute="leading" id="QzZ-mL-9rb"/>
+                            <constraint firstItem="8Hx-cP-WyU" firstAttribute="leading" secondItem="MV6-CR-NC1" secondAttribute="leading" id="SZy-Dv-Lik"/>
+                            <constraint firstItem="8Hx-cP-WyU" firstAttribute="top" secondItem="P5V-70-fSF" secondAttribute="bottom" constant="35" id="ULH-F6-Wcg"/>
+                            <constraint firstItem="Kvb-y4-2HE" firstAttribute="top" secondItem="4Lx-0b-RM6" secondAttribute="bottom" constant="31" id="VC3-An-CNm"/>
+                            <constraint firstItem="qJR-lw-siD" firstAttribute="top" secondItem="Kvb-y4-2HE" secondAttribute="bottom" constant="68" id="d9k-Cl-wi3"/>
+                            <constraint firstItem="4Lx-0b-RM6" firstAttribute="leading" secondItem="Kvb-y4-2HE" secondAttribute="leading" id="eFy-FG-RSd"/>
+                            <constraint firstItem="MV6-CR-NC1" firstAttribute="trailing" secondItem="4Lx-0b-RM6" secondAttribute="trailing" id="ieQ-ED-RE6"/>
+                            <constraint firstItem="8Hx-cP-WyU" firstAttribute="trailing" secondItem="MV6-CR-NC1" secondAttribute="trailing" id="nTF-Pa-Iho"/>
+                            <constraint firstItem="P5V-70-fSF" firstAttribute="leading" secondItem="8Hx-cP-WyU" secondAttribute="leading" id="xn4-ef-4cV"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="bodyWeightInput" destination="MV6-CR-NC1" id="E6w-6W-K3Z"/>
+                        <outlet property="calculateButton" destination="qJR-lw-siD" id="M2V-z3-n2W"/>
+                        <outlet property="firstDrinkInput" destination="4Lx-0b-RM6" id="hCw-H6-PDg"/>
+                        <outlet property="lastDrinkInput" destination="Kvb-y4-2HE" id="bi5-vm-lbq"/>
+                        <outlet property="numDrinksInput" destination="8Hx-cP-WyU" id="S0f-SW-t5F"/>
+                        <outlet property="segmentedControl" destination="P5V-70-fSF" id="id0-Ax-OeV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="378"/>
         </scene>
     </scenes>
 </document>

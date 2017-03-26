@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143771611E87433E007EED3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143771601E87433E007EED3D /* AppDelegate.swift */; };
+		143771631E87433E007EED3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143771621E87433E007EED3D /* ViewController.swift */; };
+		143771661E87433E007EED3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143771641E87433E007EED3D /* Main.storyboard */; };
+		143771681E87433E007EED3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143771671E87433E007EED3D /* Assets.xcassets */; };
+		1437716B1E87433E007EED3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143771691E87433E007EED3D /* LaunchScreen.storyboard */; };
+		143771761E87433E007EED3D /* BallmerPeakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143771751E87433E007EED3D /* BallmerPeakTests.swift */; };
+		143771811E87433E007EED3D /* BallmerPeakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143771801E87433E007EED3D /* BallmerPeakUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143771721E87433E007EED3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143771551E87433E007EED3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1437715C1E87433E007EED3D;
+			remoteInfo = BallmerPeak;
+		};
+		1437717D1E87433E007EED3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143771551E87433E007EED3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1437715C1E87433E007EED3D;
+			remoteInfo = BallmerPeak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1437715D1E87433E007EED3D /* BallmerPeak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallmerPeak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		143771601E87433E007EED3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		143771621E87433E007EED3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		143771651E87433E007EED3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		143771671E87433E007EED3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1437716A1E87433E007EED3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1437716C1E87433E007EED3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143771711E87433E007EED3D /* BallmerPeakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallmerPeakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143771751E87433E007EED3D /* BallmerPeakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallmerPeakTests.swift; sourceTree = "<group>"; };
+		143771771E87433E007EED3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1437717C1E87433E007EED3D /* BallmerPeakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallmerPeakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143771801E87433E007EED3D /* BallmerPeakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallmerPeakUITests.swift; sourceTree = "<group>"; };
+		143771821E87433E007EED3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1437715A1E87433E007EED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1437716E1E87433E007EED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143771791E87433E007EED3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143771541E87433E007EED3D = {
+			isa = PBXGroup;
+			children = (
+				1437715F1E87433E007EED3D /* BallmerPeak */,
+				143771741E87433E007EED3D /* BallmerPeakTests */,
+				1437717F1E87433E007EED3D /* BallmerPeakUITests */,
+				1437715E1E87433E007EED3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1437715E1E87433E007EED3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1437715D1E87433E007EED3D /* BallmerPeak.app */,
+				143771711E87433E007EED3D /* BallmerPeakTests.xctest */,
+				1437717C1E87433E007EED3D /* BallmerPeakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1437715F1E87433E007EED3D /* BallmerPeak */ = {
+			isa = PBXGroup;
+			children = (
+				143771601E87433E007EED3D /* AppDelegate.swift */,
+				143771621E87433E007EED3D /* ViewController.swift */,
+				143771641E87433E007EED3D /* Main.storyboard */,
+				143771671E87433E007EED3D /* Assets.xcassets */,
+				143771691E87433E007EED3D /* LaunchScreen.storyboard */,
+				1437716C1E87433E007EED3D /* Info.plist */,
+			);
+			path = BallmerPeak;
+			sourceTree = "<group>";
+		};
+		143771741E87433E007EED3D /* BallmerPeakTests */ = {
+			isa = PBXGroup;
+			children = (
+				143771751E87433E007EED3D /* BallmerPeakTests.swift */,
+				143771771E87433E007EED3D /* Info.plist */,
+			);
+			path = BallmerPeakTests;
+			sourceTree = "<group>";
+		};
+		1437717F1E87433E007EED3D /* BallmerPeakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				143771801E87433E007EED3D /* BallmerPeakUITests.swift */,
+				143771821E87433E007EED3D /* Info.plist */,
+			);
+			path = BallmerPeakUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1437715C1E87433E007EED3D /* BallmerPeak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143771851E87433E007EED3D /* Build configuration list for PBXNativeTarget "BallmerPeak" */;
+			buildPhases = (
+				143771591E87433E007EED3D /* Sources */,
+				1437715A1E87433E007EED3D /* Frameworks */,
+				1437715B1E87433E007EED3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallmerPeak;
+			productName = BallmerPeak;
+			productReference = 1437715D1E87433E007EED3D /* BallmerPeak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		143771701E87433E007EED3D /* BallmerPeakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143771881E87433E007EED3D /* Build configuration list for PBXNativeTarget "BallmerPeakTests" */;
+			buildPhases = (
+				1437716D1E87433E007EED3D /* Sources */,
+				1437716E1E87433E007EED3D /* Frameworks */,
+				1437716F1E87433E007EED3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143771731E87433E007EED3D /* PBXTargetDependency */,
+			);
+			name = BallmerPeakTests;
+			productName = BallmerPeakTests;
+			productReference = 143771711E87433E007EED3D /* BallmerPeakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1437717B1E87433E007EED3D /* BallmerPeakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1437718B1E87433E007EED3D /* Build configuration list for PBXNativeTarget "BallmerPeakUITests" */;
+			buildPhases = (
+				143771781E87433E007EED3D /* Sources */,
+				143771791E87433E007EED3D /* Frameworks */,
+				1437717A1E87433E007EED3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1437717E1E87433E007EED3D /* PBXTargetDependency */,
+			);
+			name = BallmerPeakUITests;
+			productName = BallmerPeakUITests;
+			productReference = 1437717C1E87433E007EED3D /* BallmerPeakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143771551E87433E007EED3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Totem LC";
+				TargetAttributes = {
+					1437715C1E87433E007EED3D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					143771701E87433E007EED3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1437715C1E87433E007EED3D;
+					};
+					1437717B1E87433E007EED3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1437715C1E87433E007EED3D;
+					};
+				};
+			};
+			buildConfigurationList = 143771581E87433E007EED3D /* Build configuration list for PBXProject "BallmerPeak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143771541E87433E007EED3D;
+			productRefGroup = 1437715E1E87433E007EED3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1437715C1E87433E007EED3D /* BallmerPeak */,
+				143771701E87433E007EED3D /* BallmerPeakTests */,
+				1437717B1E87433E007EED3D /* BallmerPeakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1437715B1E87433E007EED3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1437716B1E87433E007EED3D /* LaunchScreen.storyboard in Resources */,
+				143771681E87433E007EED3D /* Assets.xcassets in Resources */,
+				143771661E87433E007EED3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1437716F1E87433E007EED3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1437717A1E87433E007EED3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143771591E87433E007EED3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143771631E87433E007EED3D /* ViewController.swift in Sources */,
+				143771611E87433E007EED3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1437716D1E87433E007EED3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143771761E87433E007EED3D /* BallmerPeakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143771781E87433E007EED3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143771811E87433E007EED3D /* BallmerPeakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143771731E87433E007EED3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1437715C1E87433E007EED3D /* BallmerPeak */;
+			targetProxy = 143771721E87433E007EED3D /* PBXContainerItemProxy */;
+		};
+		1437717E1E87433E007EED3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1437715C1E87433E007EED3D /* BallmerPeak */;
+			targetProxy = 1437717D1E87433E007EED3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		143771641E87433E007EED3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				143771651E87433E007EED3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		143771691E87433E007EED3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1437716A1E87433E007EED3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		143771831E87433E007EED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		143771841E87433E007EED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		143771861E87433E007EED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallmerPeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totemlc.BallmerPeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		143771871E87433E007EED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BallmerPeak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totemlc.BallmerPeak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		143771891E87433E007EED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallmerPeakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totemlc.BallmerPeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallmerPeak.app/BallmerPeak";
+			};
+			name = Debug;
+		};
+		1437718A1E87433E007EED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallmerPeakTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totemlc.BallmerPeakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallmerPeak.app/BallmerPeak";
+			};
+			name = Release;
+		};
+		1437718C1E87433E007EED3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BallmerPeakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totemlc.BallmerPeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BallmerPeak;
+			};
+			name = Debug;
+		};
+		1437718D1E87433E007EED3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BallmerPeakUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.totemlc.BallmerPeakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BallmerPeak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143771581E87433E007EED3D /* Build configuration list for PBXProject "BallmerPeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143771831E87433E007EED3D /* Debug */,
+				143771841E87433E007EED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143771851E87433E007EED3D /* Build configuration list for PBXNativeTarget "BallmerPeak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143771861E87433E007EED3D /* Debug */,
+				143771871E87433E007EED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		143771881E87433E007EED3D /* Build configuration list for PBXNativeTarget "BallmerPeakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143771891E87433E007EED3D /* Debug */,
+				1437718A1E87433E007EED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1437718B1E87433E007EED3D /* Build configuration list for PBXNativeTarget "BallmerPeakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1437718C1E87433E007EED3D /* Debug */,
+				1437718D1E87433E007EED3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143771551E87433E007EED3D /* Project object */;
+}

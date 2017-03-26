@@ -172,7 +172,7 @@ class ViewController: UIViewController {
         }
         
         showAlert(self, title: "\(ballmerText()) Peak Report:",
-            message: "Current BAC = \(currBac)\nYou will \(ballmerText()) peak at \(date.toShortTimeString()). At this time, have \(constantDrinks) drinks every hour to maintain your peak",
+            message: "Current BAC = \(currBac.roundTo(places:3))\nYou will \(ballmerText()) peak at \(date.toShortTimeString()).\nAt this time, have \(constantDrinks) drinks every hour to maintain your peak",
             okMessage: "Ok")
     }
 

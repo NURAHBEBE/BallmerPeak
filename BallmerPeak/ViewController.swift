@@ -26,6 +26,9 @@ class ViewController: UIViewController {
     
     @IBAction func drinkStepperChanged(_ sender: Any) {
         numDrinksLabel.text = "Number of drinks you drank: \(Int(drinksStepper.value))"
+        setAttributedLabelText(label: numDrinksLabel, text: "Number of drinks you drank: \(Int(drinksStepper.value))",
+            textToChange: "\(Int(drinksStepper.value))",
+            originalFont: helveticaFont(size: 18).thin, newFont: helveticaFont(size: 18).medium, newColor: darkText)
         
         if drinksStepper.value == 10 && showSavage {
             showAlert(self, title: "Savage", message: "", okMessage: "Ok")
@@ -44,6 +47,9 @@ class ViewController: UIViewController {
     
     @IBAction func weightSliderChanged(_ sender: Any) {
         weightLabel.text = "Weight: \(Int(weightSlider.value)) lbs"
+        setAttributedLabelText(label: weightLabel, text: "Weight: \(Int(weightSlider.value)) lbs",
+            textToChange: "\(Int(weightSlider.value)) lbs",
+            originalFont: helveticaFont(size: 18).thin, newFont: helveticaFont(size: 18).medium, newColor: darkText)
     }
     
     @IBOutlet weak var bacLabel: UILabel!
@@ -52,7 +58,11 @@ class ViewController: UIViewController {
     
     @IBAction func bacSliderChanged(_ sender: Any) {
 
-        bacLabel.text = ("\(ballmerText()) BAC: \(Double(bacSlider.value).roundTo(places: 4)) %")
+        let val = Double(bacSlider.value).roundTo(places: 4)
+        bacLabel.text = ("\(ballmerText()) BAC: \(val) %")
+        setAttributedLabelText(label: bacLabel, text: "\(ballmerText()) BAC: \(val) %",
+            textToChange: "\(val) %",
+            originalFont: helveticaFont(size: 18).thin, newFont: helveticaFont(size: 18).medium, newColor: darkText)
     }
     
     
@@ -76,40 +86,29 @@ class ViewController: UIViewController {
         
         firstDrinkPicker.countDownDuration = 1
         lastDrinkPicker.countDownDuration = 1
+        
+        let val = Double(bacSlider.value).roundTo(places: 4)
+        setAttributedLabelText(label: bacLabel, text: "\(ballmerText()) BAC: \(val) %",
+            textToChange: "\(val) %",
+            originalFont: helveticaFont(size: 18).thin, newFont: helveticaFont(size: 18).medium, newColor: darkText)
+        
+        setAttributedLabelText(label: numDrinksLabel, text: "Number of drinks you drank: \(Int(drinksStepper.value))",
+            textToChange: "\(Int(drinksStepper.value))",
+            originalFont: helveticaFont(size: 18).thin, newFont: helveticaFont(size: 18).medium, newColor: darkText)
+        
+        setAttributedLabelText(label: weightLabel, text: "Weight: \(Int(weightSlider.value)) lbs",
+            textToChange: "\(Int(weightSlider.value)) lbs",
+            originalFont: helveticaFont(size: 18).thin, newFont: helveticaFont(size: 18).medium, newColor: darkText)
+        
     }
     
     func ballmerText() -> String {
         return (bacSlider.value > 0.12 && bacSlider.value < 0.14) ? "Ballmer" : "Custom"
     }
     
-    // todo: show savage alert if more than 10 drinks
-    /*
-    func showHelp() {
-        showAlert(self, title: "Standard drinks (alchohol %)", message: "1 can of beer (5%)\n", okMessage: "")
-        /*
-        let alert = UIAlertController(title: nil, message: nil, preferredStyle: UIAlertControllerStyle.alert)
-        
-        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 400, height: 200))
-        imageView.image = UIImage(named: "just_drinks_for_web3")
-
-        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
-        
-        self.present(alert, animated: true, completion: nil)
-        
-        alert.view.addSubview(imageView)
-        */
-    }
-    */
     
     func calculatePressed() {
         // get input vals
-        /*
-        if  {
-            showAlert(self, title: "Try Again", message: "You left something blank", okMessage: "Sorry")
-            return
-        }
-        */
-        
         let numDrinks = drinksStepper.value
         let lbsWeight = Double(weightSlider.value)
         
@@ -173,10 +172,26 @@ class ViewController: UIViewController {
         }
         
         showAlert(self, title: "\(ballmerText()) Peak Report:",
-            message: "You will \(ballmerText()) peak at \(date.toShortTimeString()). At this time, have \(constantDrinks) drinks every hour to maintain your peak",
+            message: "Current BAC = \(currBac)\nYou will \(ballmerText()) peak at \(date.toShortTimeString()). At this time, have \(constantDrinks) drinks every hour to maintain your peak",
             okMessage: "Ok")
     }
 
+}
+
+func helveticaFont(size: CGFloat) -> (bold: UIFont, medium: UIFont, light: UIFont, thin: UIFont) {
+    let bold = UIFont(name: "HelveticaNeue-Bold", size: size)!
+    let medium = UIFont(name: "HelveticaNeue-Medium", size: size)!
+    let light = UIFont(name: "HelveticaNeue-Light", size: size)!
+    let thin = UIFont(name: "HelveticaNeue-Thin", size: size)!
+    
+    return (bold, medium, light, thin)
+}
+
+func setAttributedLabelText(label: UILabel, text: String, textToChange: String, originalFont: UIFont, newFont: UIFont, newColor: UIColor) {
+    let range = (text as NSString).range(of: textToChange)
+    let attrString = NSMutableAttributedString(string: text, attributes: [NSFontAttributeName: originalFont])
+    attrString.setAttributes([NSFontAttributeName: newFont, NSForegroundColorAttributeName: newColor], range: range)
+    label.attributedText = attrString
 }
 
 func showAlert(_ vc: UIViewController, title: String, message: String, okMessage: String) {
@@ -186,6 +201,8 @@ func showAlert(_ vc: UIViewController, title: String, message: String, okMessage
     vc.present(alert, animated: true, completion: nil)
 }
 
+let red = UIColor(red: 196.0/255.0, green: 43.0/255.0, blue: 28/255.0, alpha: 1.0)
+let darkText = UIColor.darkText
 
 
 extension Double {

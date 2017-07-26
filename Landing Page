@@ -17,7 +17,7 @@
 		<meta property="og:locale" content="en_US" />
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content="RANK EVERYTHING " />
-		<meta property="og:description" content="Share popular RANKS on our Social Media " />
+		<meta property="og:description" content="Every category at one platform." />
 		<meta property="og:site_name" content="RANK EVERYTHING " />
 					 <meta property="og:url" content="http://totemlc.pagedemo.co" />
 		
@@ -102,9 +102,9 @@
 		
 		
 				
-<link rel="stylesheet" type="text/css" href="//v.fastcdn.co/a/563/031a761e2b05d2bed213fd1f07412755.css" media="screen"  />
+<link rel="stylesheet" type="text/css" href="//v.fastcdn.co/a/566/031a761e2b05d2bed213fd1f07412755.css" media="screen"  />
 
-<script type="text/javascript" src="//v.fastcdn.co/a/563/a5cb880a745154a6a1a45f3465215dfd.js"></script>
+<script type="text/javascript" src="//v.fastcdn.co/a/566/a5cb880a745154a6a1a45f3465215dfd.js"></script>
 
 
 
@@ -115,7 +115,7 @@
 			var $ = ijQuery;
 			var jQuery = ijQuery;
 			window.__page_id = 6646436;
-			window.__version = 21;
+			window.__version = 28;
 			window.__variant = 'A';
 			window.__variant_custom_name = '' || 'A';
 			window.__is_tablet = false;
@@ -126,13 +126,13 @@
 			window.__facebook = false;
 			window.__page_type = 2;
 			window.__mobile_version = 2;
-			window.__variant_hash = "e532db5bb0f95663434470296f4810def3ea70a7";
+			window.__variant_hash = "31a5cf623ebf744bf743490249e620c6aa25432a";
 			window.__predator_throttle = 100;
 			window.__get_ga_track_url = '';
 			window.__allow_johnny_cash = null;
 			
 			
-			var page_version = 21;
+			var page_version = 28;
 
 			var _Translate = new Translate();
 
@@ -266,8 +266,8 @@
 {
 	height: 78px;
 	width: 526px;
-	left: 42px;
-	top: 266px;
+	left: 44px;
+	top: 213px;
 	z-index: 5;
 }
 
@@ -283,8 +283,8 @@
 {
 	height: 48px;
 	width: 502px;
-	left: 42px;
-	top: 375px;
+	left: 44px;
+	top: 322px;
 	z-index: 6;
 }
 
@@ -300,8 +300,8 @@
 {
 	height: 24px;
 	width: 415px;
-	left: 80px;
-	top: 494px;
+	left: 82px;
+	top: 441px;
 	z-index: 7;
 }
 
@@ -325,7 +325,7 @@
 #element-18 p, #element-18 ul, #element-18 ol, #element-18 h1 
 {
 	font-size: 30px;
-	color: rgb(56, 112, 208);
+	color: rgb(0, 144, 202);
 	line-height: 42px;
 	text-align: center;
 }
@@ -344,7 +344,7 @@
 	height: 20px;
 	width: 959px;
 	left: 1px;
-	top: 387px;
+	top: 294px;
 	z-index: 10;
 }
 
@@ -375,18 +375,18 @@
 	
 #element-45  
 {
-	height: 39px;
+	height: 53px;
 	width: 584px;
 	left: 188px;
-	top: 104px;
+	top: 73px;
 	z-index: 12;
 }
 
 #element-45 p, #element-45 ul, #element-45 ol, #element-45 h1 
 {
-	font-size: 30px;
+	font-size: 41px;
 	color: rgb(255, 255, 255);
-	line-height: 39px;
+	line-height: 53px;
 	text-align: center;
 }
 	
@@ -401,10 +401,10 @@
 	
 #element-63  
 {
-	height: 78px;
+	height: 39px;
 	width: 429px;
-	left: 437px;
-	top: 219px;
+	left: 430px;
+	top: 183px;
 	z-index: 14;
 }
 
@@ -420,8 +420,8 @@
 {
 	height: 120px;
 	width: 502px;
-	left: 437px;
-	top: 333px;
+	left: 430px;
+	top: 245px;
 	z-index: 15;
 }
 
@@ -437,8 +437,8 @@
 {
 	height: 24px;
 	width: 360px;
-	left: 478px;
-	top: 470px;
+	left: 471px;
+	top: 394px;
 	z-index: 16;
 }
 
@@ -450,30 +450,13 @@
 	text-align: left;
 }
 	
-#element-70  
-{
-	height: 48px;
-	width: 578px;
-	left: 191px;
-	top: 201px;
-	z-index: 17;
-}
-
-#element-70 p, #element-70 ul, #element-70 ol, #element-70 h1 
-{
-	font-size: 17px;
-	color: rgb(255, 255, 255);
-	line-height: 24px;
-	text-align: center;
-}
-	
 #element-72  
 {
-	height: 48px;
+	height: 72px;
 	width: 681px;
 	left: 152px;
 	top: 126px;
-	z-index: 18;
+	z-index: 17;
 }
 
 #element-72 p, #element-72 ul, #element-72 ol, #element-72 h1 
@@ -489,8 +472,8 @@
 	height: 42px;
 	width: 729px;
 	left: 115px;
-	top: 82px;
-	z-index: 19;
+	top: 56px;
+	z-index: 18;
 }
 
 #element-78 p, #element-78 ul, #element-78 ol, #element-78 h1 
@@ -501,84 +484,67 @@
 	text-align: center;
 }
 	
-#element-79  
-{
-	height: 48px;
-	width: 666px;
-	left: 147px;
-	top: 169px;
-	z-index: 20;
-}
-
-#element-79 p, #element-79 ul, #element-79 ol, #element-79 h1 
-{
-	font-size: 17px;
-	color: rgb(100, 100, 100);
-	line-height: 24px;
-	text-align: center;
-}
-	
 #element-93  
 {
 	height: 62px;
 	width: 62px;
-	left: 42px;
-	top: 173px;
-	z-index: 21;
+	left: 44px;
+	top: 120px;
+	z-index: 19;
 }
 	
 #element-95  
 {
 	height: 66px;
 	width: 58px;
-	left: 437px;
-	top: 129px;
-	z-index: 22;
+	left: 430px;
+	top: 93px;
+	z-index: 20;
 }
 	
 #element-96  
 {
 	height: 16px;
 	width: 16px;
-	left: 52px;
-	top: 498px;
-	z-index: 23;
+	left: 54px;
+	top: 445px;
+	z-index: 21;
 }
 	
 #element-97  
 {
 	height: 16px;
 	width: 16px;
-	left: 444px;
-	top: 474px;
-	z-index: 24;
+	left: 437px;
+	top: 398px;
+	z-index: 22;
 }
 	
 #element-99  
 {
 	height: 57px;
 	width: 287px;
-	left: 337px;
-	top: 308px;
-	z-index: 25;
+	left: 336px;
+	top: 235px;
+	z-index: 23;
 }
 	
 #element-100  
 {
 	height: 40px;
 	width: 291px;
-	left: 334px;
-	top: 331px;
-	z-index: 26;
+	left: 335px;
+	top: 199px;
+	z-index: 24;
 }
 	
 #element-101  
 {
 	height: 57px;
 	width: 287px;
-	left: 336px;
-	top: 274px;
-	z-index: 27;
+	left: 339px;
+	top: 142px;
+	z-index: 25;
 }
 	
 #element-108  
@@ -587,7 +553,7 @@
 	width: 385px;
 	left: 12px;
 	top: 66px;
-	z-index: 28;
+	z-index: 26;
 }
 	
 #element-109  
@@ -596,51 +562,51 @@
 	width: 245px;
 	left: 82px;
 	top: 161px;
-	z-index: 29;
+	z-index: 27;
 }
 	
 #element-111  
 {
 	height: 516px;
 	width: 290px;
-	left: 630px;
-	top: 95px;
-	z-index: 30;
+	left: 632px;
+	top: 46px;
+	z-index: 28;
 }
 	
 #element-112  
 {
 	height: 516px;
 	width: 290px;
-	left: 68px;
-	top: 75px;
-	z-index: 31;
+	left: 62px;
+	top: 32px;
+	z-index: 29;
 }
 	
 #element-119  
 {
 	height: 598px;
 	width: 957px;
-	left: 1px;
-	top: 298px;
-	z-index: 32;
+	left: 0px;
+	top: 182px;
+	z-index: 30;
 }
 	
-#element-120  
+#element-121  
 {
-	height: 85px;
-	width: 648px;
-	left: 169px;
-	top: 220px;
-	z-index: 33;
+	height: 26px;
+	width: 584px;
+	left: 188px;
+	top: 157px;
+	z-index: 31;
 }
 
-#element-120 p, #element-120 ul, #element-120 ol, #element-120 h1 
+#element-121 p, #element-121 ul, #element-121 ol, #element-121 h1 
 {
-	font-size: 61px;
-	color: rgb(0, 144, 202);
-	line-height: 85px;
-	text-align: left;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	line-height: 26px;
+	text-align: center;
 }
 
 			
@@ -691,7 +657,7 @@
 			}
 
 			
-#page_block_below_fold { height: 678px; }
+#page_block_below_fold { height: 602px; }
 
 #page_block_below_fold .border-holder
 {
@@ -709,7 +675,7 @@
 		border-bottom-width: 0px;
 
 	
-	height: 678px;
+	height: 602px;
 
 	}
 
@@ -729,7 +695,7 @@
 			}
 
 			
-#page_block_footer { height: 676px; }
+#page_block_footer { height: 583px; }
 
 #page_block_footer .border-holder
 {
@@ -747,7 +713,7 @@
 		border-bottom-width: 0px;
 
 	
-	height: 676px;
+	height: 583px;
 
 	}
 
@@ -767,7 +733,7 @@
 			}
 
 			
-#page-block-vlbkit82f1b81tt9 { height: 479px; }
+#page-block-vlbkit82f1b81tt9 { height: 335px; }
 
 #page-block-vlbkit82f1b81tt9 .border-holder
 {
@@ -788,7 +754,7 @@
 		border-bottom-width: 0px;
 
 	
-	height: 479px;
+	height: 335px;
 
 			background-attachment: fixed;
 	}
@@ -815,7 +781,7 @@
 			}
 
 			
-#page-block-lllpg3enmw265hfr { height: 897px; }
+#page-block-lllpg3enmw265hfr { height: 780px; }
 
 #page-block-lllpg3enmw265hfr .border-holder
 {
@@ -833,7 +799,7 @@
 		border-bottom-width: 0px;
 
 	
-	height: 897px;
+	height: 780px;
 
 	}
 
@@ -859,7 +825,7 @@
 			}
 
 			
-#page-block-07z4naotfp5sif6r { height: 464px; }
+#page-block-07z4naotfp5sif6r { height: 332px; }
 
 #page-block-07z4naotfp5sif6r .border-holder
 {
@@ -876,7 +842,7 @@
 		border-bottom-width: 0px;
 
 	
-	height: 464px;
+	height: 332px;
 
 	}
 
@@ -1059,91 +1025,46 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 	}
 
 						
-#element-108  
-{
-	height: 399.6px;
-	width: 231px;
-	left: 84px;
-	top: 258px;
-	z-index: 28;
-}
-					
-#element-109  
-{
-	height: 256.73px;
-	width: 148px;
-	left: 126px;
-	top: 316px;
-	z-index: 29;
-}
-					
 #element-2  
 {
-	height: 53px;
-	width: 370px;
-	left: 15px;
-	top: 150px;
+	height: 46px;
+	width: 332px;
+	left: 53px;
+	top: 23px;
 	z-index: 3;
 }
 
 #element-2 p, #element-2 ul, #element-2 ol, #element-2 h1 
 {
-	font-size: 38px;
+	font-size: 35px;
 	color: rgb(255, 255, 255);
-	line-height: 53px;
-	text-align: center !important;
+	line-height: 46px;
+	text-align: left !important;
 }
 					
 #element-3  
 {
-	height: 100px;
-	width: 370px;
-	left: 15px;
-	top: 208px;
+	height: 80px;
+	width: 360px;
+	left: 25px;
+	top: 66px;
 	z-index: 4;
 }
 
 #element-3 p, #element-3 ul, #element-3 ol, #element-3 h1 
 {
-	font-size: 18px;
+	font-size: 17px;
 	color: rgb(255, 255, 255);
-	line-height: 25px;
+	line-height: 20px;
 	text-align: center !important;
-}
-					
-#element-51  
-{
-	height: 71px;
-	width: 369px;
-	left: 16px;
-	top: 664px;
-	z-index: 13;
-}
-					
-#element-111  
-{
-	height: 364.76px;
-	width: 205px;
-	left: 103px;
-	top: 431px;
-	z-index: 30;
-}
-					
-#element-93  
-{
-	height: 62px;
-	width: 62px;
-	left: 169px;
-	top: 61px;
-	z-index: 21;
 }
 					
 #element-4  
 {
-	height: 96px;
-	width: 370px;
-	left: 15px;
-	top: 153px;
+	height: 81px;
+	width: 360px;
+	left: 20px;
+	top: 125px;
 	z-index: 5;
 }
 
@@ -1151,301 +1072,76 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 {
 	font-size: 23px;
 	color: rgb(0, 0, 0);
-	line-height: 32px;
+	line-height: 27px;
 	text-align: center !important;
 }
 					
 #element-5  
 {
-	height: 75px;
-	width: 370px;
-	left: 15px;
-	top: 252px;
+	height: 60px;
+	width: 360px;
+	left: 20px;
+	top: 232px;
 	z-index: 6;
 }
 
 #element-5 p, #element-5 ul, #element-5 ol, #element-5 h1 
 {
-	font-size: 18px;
+	font-size: 17px;
 	color: rgb(0, 0, 0);
-	line-height: 25px;
+	line-height: 20px;
 	text-align: center !important;
 }
 					
 #element-7  
 {
-	height: 19px;
-	width: 336px;
-	left: 55px;
-	top: 365px;
+	height: 20px;
+	width: 317px;
+	left: 73px;
+	top: 865px;
 	z-index: 7;
 }
 
 #element-7 p, #element-7 ul, #element-7 ol, #element-7 h1 
 {
-	font-size: 16px;
-	color: rgb(0, 0, 0);
-	line-height: 19px;
-	text-align: center !important;
-}
-					
-#element-96  
-{
-	height: 19px;
-	width: 19px;
-	left: 55px;
-	top: 365px;
-	z-index: 23;
-}
-					
-#element-112  
-{
-	height: 370.1px;
-	width: 208px;
-	left: 96px;
-	top: 364px;
-	z-index: 31;
-}
-					
-#element-95  
-{
-	height: 66px;
-	width: 58px;
-	left: 171px;
-	top: 47px;
-	z-index: 22;
-}
-					
-#element-63  
-{
-	height: 64px;
-	width: 370px;
-	left: 15px;
-	top: 143px;
-	z-index: 14;
-}
-
-#element-63 p, #element-63 ul, #element-63 ol, #element-63 h1 
-{
-	font-size: 23px;
-	color: rgb(0, 0, 0);
-	line-height: 32px;
-	text-align: center !important;
-}
-					
-#element-64  
-{
-	height: 150px;
-	width: 370px;
-	left: 15px;
-	top: 188px;
-	z-index: 15;
-}
-
-#element-64 p, #element-64 ul, #element-64 ol, #element-64 h1 
-{
-	font-size: 18px;
-	color: rgb(0, 0, 0);
-	line-height: 25px;
-	text-align: center !important;
-}
-					
-#element-65  
-{
-	height: 20px;
-	width: 370px;
-	left: 29px;
-	top: 328px;
-	z-index: 16;
-}
-
-#element-65 p, #element-65 ul, #element-65 ol, #element-65 h1 
-{
 	font-size: 17px;
-	color: rgb(182, 182, 182);
+	color: rgb(0, 0, 0);
 	line-height: 20px;
-	text-align: center !important;
-}
-					
-#element-97  
-{
-	height: 16px;
-	width: 16px;
-	left: 28px;
-	top: 328px;
-	z-index: 24;
-}
-					
-#element-45  
-{
-	height: 68px;
-	width: 249px;
-	left: 76px;
-	top: 48px;
-	z-index: 12;
-}
-
-#element-45 p, #element-45 ul, #element-45 ol, #element-45 h1 
-{
-	font-size: 24px;
-	color: rgb(255, 255, 255);
-	line-height: 34px;
-	text-align: center !important;
-}
-					
-#element-70  
-{
-	height: 75px;
-	width: 370px;
-	left: 15px;
-	top: 149px;
-	z-index: 17;
-}
-
-#element-70 p, #element-70 ul, #element-70 ol, #element-70 h1 
-{
-	font-size: 18px;
-	color: rgb(255, 255, 255);
-	line-height: 25px;
-	text-align: center !important;
-}
-					
-#element-99  
-{
-	height: 73px;
-	width: 364px;
-	left: 18px;
-	top: 268px;
-	z-index: 25;
+	text-align: left !important;
 }
 					
 #element-18  
 {
-	height: 29px;
-	width: 370px;
-	left: 15px;
-	top: 49px;
+	height: 28px;
+	width: 360px;
+	left: 20px;
+	top: 40px;
 	z-index: 8;
 }
 
 #element-18 p, #element-18 ul, #element-18 ol, #element-18 h1 
 {
-	font-size: 24px;
-	color: rgb(56, 112, 208);
-	line-height: 29px;
-	text-align: center !important;
-}
-					
-#element-72  
-{
-	height: 100px;
-	width: 370px;
-	left: 15px;
-	top: 104px;
-	z-index: 18;
-}
-
-#element-72 p, #element-72 ul, #element-72 ol, #element-72 h1 
-{
-	font-size: 18px;
-	color: rgb(100, 100, 100);
-	line-height: 25px;
-	text-align: center !important;
-}
-					
-#element-120  
-{
-	height: 57px;
-	width: 360px;
-	left: 20px;
-	top: 234px;
-	z-index: 33;
-}
-
-#element-120 p, #element-120 ul, #element-120 ol, #element-120 h1 
-{
-	font-size: 43px;
+	font-size: 23px;
 	color: rgb(0, 144, 202);
-	line-height: 57px;
-	text-align: left;
-}
-					
-#element-119  
-{
-	height: 224.95px;
-	width: 360px;
-	left: 20px;
-	top: 321px;
-	z-index: 32;
+	line-height: 28px;
+	text-align: center;
 }
 					
 #element-102  
 {
-	height: 50.88px;
-	width: 370px;
-	left: 15px;
-	top: 546px;
+	height: 50px;
+	width: 360px;
+	left: 20px;
+	top: 505px;
 	z-index: 9;
-}
-					
-#element-78  
-{
-	height: 93px;
-	width: 370px;
-	left: 15px;
-	top: 44px;
-	z-index: 19;
-}
-
-#element-78 p, #element-78 ul, #element-78 ol, #element-78 h1 
-{
-	font-size: 22px;
-	color: rgb(0, 144, 202);
-	line-height: 31px;
-	text-align: center !important;
-}
-					
-#element-79  
-{
-	height: 100px;
-	width: 370px;
-	left: 15px;
-	top: 171px;
-	z-index: 20;
-}
-
-#element-79 p, #element-79 ul, #element-79 ol, #element-79 h1 
-{
-	font-size: 18px;
-	color: rgb(100, 100, 100);
-	line-height: 25px;
-	text-align: center !important;
-}
-					
-#element-101  
-{
-	height: 69px;
-	width: 365px;
-	left: 18px;
-	top: 323px;
-	z-index: 27;
-}
-					
-#element-100  
-{
-	height: 40px;
-	width: 291px;
-	left: 55px;
-	top: 384px;
-	z-index: 26;
 }
 					
 #element-43  
 {
 	height: 36px;
-	width: 370px;
-	left: 15px;
-	top: 445px;
+	width: 360px;
+	left: 20px;
+	top: 230px;
 	z-index: 10;
 }
 
@@ -1454,15 +1150,15 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 	font-size: 14px;
 	color: rgb(0, 0, 0);
 	line-height: 18px;
-	text-align: center;
+	text-align: center !important;
 }
 					
 #element-44  
 {
 	height: 18px;
-	width: 370px;
-	left: 15px;
-	top: 22px;
+	width: 360px;
+	left: 20px;
+	top: 40px;
 	z-index: 11;
 }
 
@@ -1471,11 +1167,247 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 	font-size: 14px;
 	color: rgb(255, 255, 255);
 	line-height: 18px;
+	text-align: center;
+}
+					
+#element-45  
+{
+	height: 33px;
+	width: 360px;
+	left: 20px;
+	top: 40px;
+	z-index: 12;
+}
+
+#element-45 p, #element-45 ul, #element-45 ol, #element-45 h1 
+{
+	font-size: 28px;
+	color: rgb(255, 255, 255);
+	line-height: 33px;
+	text-align: center;
+}
+					
+#element-51  
+{
+	height: 57px;
+	width: 287px;
+	left: 61px;
+	top: 652px;
+	z-index: 13;
+}
+					
+#element-63  
+{
+	height: 27px;
+	width: 193px;
+	left: 87px;
+	top: 88px;
+	z-index: 14;
+}
+
+#element-63 p, #element-63 ul, #element-63 ol, #element-63 h1 
+{
+	font-size: 23px;
+	color: rgb(0, 0, 0);
+	line-height: 27px;
+	text-align: left !important;
+}
+					
+#element-64  
+{
+	height: 120px;
+	width: 360px;
+	left: 12px;
+	top: 108px;
+	z-index: 15;
+}
+
+#element-64 p, #element-64 ul, #element-64 ol, #element-64 h1 
+{
+	font-size: 17px;
+	color: rgb(0, 0, 0);
+	line-height: 20px;
 	text-align: center !important;
+}
+					
+#element-65  
+{
+	height: 24px;
+	width: 272px;
+	left: 71px;
+	top: 765px;
+	z-index: 16;
+}
+
+#element-65 p, #element-65 ul, #element-65 ol, #element-65 h1 
+{
+	font-size: 17px;
+	color: rgb(182, 182, 182);
+	line-height: 24px;
+	text-align: left !important;
+}
+					
+#element-72  
+{
+	height: 100px;
+	width: 360px;
+	left: 20px;
+	top: 121px;
+	z-index: 17;
+}
+
+#element-72 p, #element-72 ul, #element-72 ol, #element-72 h1 
+{
+	font-size: 17px;
+	color: rgb(100, 100, 100);
+	line-height: 20px;
+	text-align: center;
+}
+					
+#element-78  
+{
+	height: 28px;
+	width: 360px;
+	left: 20px;
+	top: 40px;
+	z-index: 18;
+}
+
+#element-78 p, #element-78 ul, #element-78 ol, #element-78 h1 
+{
+	font-size: 23px;
+	color: rgb(0, 144, 202);
+	line-height: 28px;
+	text-align: center;
+}
+					
+#element-93  
+{
+	height: 62px;
+	width: 62px;
+	left: 169px;
+	top: 33px;
+	z-index: 19;
+}
+					
+#element-95  
+{
+	height: 66px;
+	width: 58px;
+	left: 163px;
+	top: 9px;
+	z-index: 20;
+}
+					
+#element-96  
+{
+	height: 16px;
+	width: 16px;
+	left: 47px;
+	top: 867px;
+	z-index: 21;
+}
+					
+#element-97  
+{
+	height: 16px;
+	width: 16px;
+	left: 48px;
+	top: 769px;
+	z-index: 22;
+}
+					
+#element-99  
+{
+	height: 57px;
+	width: 287px;
+	left: 56px;
+	top: 154px;
+	z-index: 23;
+}
+					
+#element-100  
+{
+	height: 40px;
+	width: 291px;
+	left: 54px;
+	top: 178px;
+	z-index: 24;
+}
+					
+#element-101  
+{
+	height: 57px;
+	width: 287px;
+	left: 56px;
+	top: 121px;
+	z-index: 25;
+}
+					
+#element-108  
+{
+	height: 623px;
+	width: 360px;
+	left: 25px;
+	top: 86px;
+	z-index: 26;
+}
+					
+#element-109  
+{
+	height: 399px;
+	width: 230px;
+	left: 90px;
+	top: 174px;
+	z-index: 27;
+}
+					
+#element-111  
+{
+	height: 516px;
+	width: 290px;
+	left: 73px;
+	top: 313px;
+	z-index: 28;
+}
+					
+#element-112  
+{
+	height: 516px;
+	width: 290px;
+	left: 55px;
+	top: 228px;
+	z-index: 29;
+}
+					
+#element-119  
+{
+	height: 225px;
+	width: 360px;
+	left: 20px;
+	top: 251px;
+	z-index: 30;
+}
+					
+#element-121  
+{
+	height: 21px;
+	width: 360px;
+	left: 20px;
+	top: 103px;
+	z-index: 31;
+}
+
+#element-121 p, #element-121 ul, #element-121 ol, #element-121 h1 
+{
+	font-size: 19px;
+	color: rgb(255, 255, 255);
+	line-height: 21px;
+	text-align: center;
 }
 			
 						
-#page_block_header { height: 764px; }
+#page_block_header { height: 756px; }
 
 #page_block_header .border-holder
 {
@@ -1496,7 +1428,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 		border-bottom-width: 0px;
 
 	
-	height: 764px;
+	height: 756px;
 
 	}
 
@@ -1522,7 +1454,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 			}
 
 					
-#page_block_below_fold { height: 870px; }
+#page_block_below_fold { height: 981px; }
 
 #page_block_below_fold .border-holder
 {
@@ -1540,7 +1472,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 		border-bottom-width: 0px;
 
 	
-	height: 870px;
+	height: 981px;
 
 	}
 
@@ -1560,7 +1492,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 			}
 
 					
-#page_block_footer { height: 762px; }
+#page_block_footer { height: 812px; }
 
 #page_block_footer .border-holder
 {
@@ -1578,7 +1510,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 		border-bottom-width: 0px;
 
 	
-	height: 762px;
+	height: 812px;
 
 	}
 
@@ -1598,7 +1530,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 			}
 
 					
-#page-block-vlbkit82f1b81tt9 { height: 398px; }
+#page-block-vlbkit82f1b81tt9 { height: 251px; }
 
 #page-block-vlbkit82f1b81tt9 .border-holder
 {
@@ -1619,7 +1551,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 		border-bottom-width: 0px;
 
 	
-	height: 398px;
+	height: 251px;
 
 			background-attachment: fixed;
 	}
@@ -1646,7 +1578,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 			}
 
 					
-#page-block-lllpg3enmw265hfr { height: 597px; }
+#page-block-lllpg3enmw265hfr { height: 594px; }
 
 #page-block-lllpg3enmw265hfr .border-holder
 {
@@ -1664,7 +1596,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 		border-bottom-width: 0px;
 
 	
-	height: 597px;
+	height: 594px;
 
 	}
 
@@ -1690,7 +1622,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 			}
 
 					
-#page-block-07z4naotfp5sif6r { height: 530px; }
+#page-block-07z4naotfp5sif6r { height: 313px; }
 
 #page-block-07z4naotfp5sif6r .border-holder
 {
@@ -1707,7 +1639,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 		border-bottom-width: 0px;
 
 	
-	height: 530px;
+	height: 313px;
 
 	}
 
@@ -1733,7 +1665,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 			}
 
 					
-#page-block-s4a1rfgcaf4aq0k9 { height: 63px; }
+#page-block-s4a1rfgcaf4aq0k9 { height: 98px; }
 
 #page-block-s4a1rfgcaf4aq0k9 .border-holder
 {
@@ -1751,7 +1683,7 @@ screen and (max-width: 999px) and (-webkit-min-device-pixel-ratio: 1.5) and ( ma
 		border-bottom-width: 0px;
 
 	
-	height: 63px;
+	height: 98px;
 
 	}
 
@@ -1793,10 +1725,9 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 					})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 				</script>
 															<script type='text/javascript'>
-							ga( 'create', '', 'auto' );
+							ga( 'create', 'UA-102817039-1', 'auto' );
 							ga( 'send', 'pageview' );
 						</script>
-												
 			
 						</head>
 
@@ -1897,10 +1828,10 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 		{
 			body:not( .tablet ) #element-51 .dynamic-button, body:not( .tablet ) #element-51 .image-button
 			{
-				width: 369px;
-				height: 71px;
+				width: 287px;
+				height: 57px;
 				z-index: 13;
-				line-height: 71px;
+				line-height: 57px;
 				font-size: 20px;
 			}
 		}
@@ -1940,8 +1871,8 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 			{
 				#element-109 .cropped
 				{
-					height: 256.73px;					width: 148px;					background-size: 148px 263px;
-					background-position: 0px -4px;
+					height: 399px;					width: 230px;					background-size: 230px 410px;
+					background-position: 0px -6px;
 
 				}
 			}
@@ -1967,7 +1898,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 	>
 
 	
-<div class="contents"><h2><p style=" ">Start Ranking Top topics and trends happening all around the world.</p></h2></div>
+<div class="contents"><h2><p style=" ">Start ranking top topics and trends happening all around the world.</p></h2></div>
 </div>
 
 																													<div
@@ -2031,7 +1962,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 			{
 				#element-111 .cropped
 				{
-					height: 364.76px;					width: 205px;					background-size: 205px 364px;
+					height: 516px;					width: 290px;					background-size: 290px 516px;
 					background-position: 0px 0px;
 
 				}
@@ -2058,7 +1989,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 	>
 
 	
-<div class="contents"><h2><p style=" ">Sharing your ranks on Social Media.</p></h2></div>
+<div class="contents"><h2><p style=" ">Ranking &gt;&nbsp;Rating</p></h2></div>
 </div>
 
 																													<div
@@ -2099,7 +2030,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 	id="element-65"
 	>
 
-	<div class="contents"><p style=" "><font color="#767676">Share popular RANKS on our Social Media</font> </p></div>
+	<div class="contents"><p style=" "><font color="#767676">Every category at one platform.</font></p></div>
 </div>
 
 																													<div
@@ -2122,7 +2053,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 			{
 				#element-112 .cropped
 				{
-					height: 370.1px;					width: 208px;					background-size: 208px 370px;
+					height: 516px;					width: 290px;					background-size: 290px 516px;
 					background-position: 0px 0px;
 
 				}
@@ -2149,15 +2080,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 	>
 
 	
-<div class="contents"><h1><p style="text-align: center;  "><font color="#ffffff">Get it on the App Store!</font></p></h1></div>
-</div>
-
-																													<div
-	class="page-element widget-container page-element-type-text widget-text "
-	id="element-70"
-	>
-
-	<div class="contents"><p style="text-align: center;  "><font color="#ffffff">We won't dare charge you anything, except if you give us your credit card, but no... for real, we won't... It's Free.</font></p></div>
+<div class="contents"><h1><p style="text-align: center;  "><font color="#ffffff">Available for iOS!</font></p></h1></div>
 </div>
 
 																													<div
@@ -2189,7 +2112,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 	{
 		width: 287px;
 		height: 57px;
-		z-index: 25;
+		z-index: 23;
 		line-height: 23px;
 		font-size: 20px;
 		font-weight: 700;
@@ -2204,10 +2127,10 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 		{
 			body:not( .tablet ) #element-99 .dynamic-button, body:not( .tablet ) #element-99 .image-button
 			{
-				width: 364px;
-				height: 73px;
-				z-index: 25;
-				line-height: 73px;
+				width: 287px;
+				height: 57px;
+				z-index: 23;
+				line-height: 57px;
 				font-size: 20px;
 			}
 		}
@@ -2227,6 +2150,15 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 </div>
 </div>
 
+																													<div
+	class="page-element widget-container page-element-type-headline widget-headline "
+	id="element-121"
+	>
+
+	
+<div class="contents"><h1><p style="text-align: center;  "><font color="#ffffff">Android Coming Soon...</font></p></h1></div>
+</div>
+
 																																		</div>
 						</div>
 					</div>
@@ -2235,19 +2167,20 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 						<div class="border-holder">
 							<div class="block-inner">
 																											<div
-	class="page-element widget-container page-element-type-image widget-image "
-	id="element-119"
+	class="page-element widget-container page-element-type-text widget-text "
+	id="element-72"
+	>
+
+	<div class="contents"><p style="text-align: center;  ">Use the locations tab to discover Totems specific to your city!</p><p style="text-align: center;  ">Current locations: University of Michigan, Los Angeles, San Francisco</p><p style="text-align: center;  "><br></p></div>
+</div>
+
+																													<div
+	class="page-element widget-container page-element-type-headline widget-headline "
+	id="element-18"
 	>
 
 	
-<div class="contents">
-						<img
-				src="//v.fastcdn.co/u/22192480/19726566-0-water-abstract-maps-.jpg"
-									style="height: 100%; width: 100%; margin-top: 0px;"
-								alt=""
-			/>
-		
-	</div>
+<div class="contents"><h3><p style="text-align: center;  "><font color="#0090ca">.Locations.</font></p></h3></div>
 </div>
 
 																													<div
@@ -2270,8 +2203,8 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 			{
 				#element-102 .cropped
 				{
-					height: 50.88px;					width: 370px;					background-size: 370px 469px;
-					background-position: 0px -419px;
+					height: 50px;					width: 360px;					background-size: 360px 460px;
+					background-position: 0px -410px;
 
 				}
 			}
@@ -2285,29 +2218,19 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 </div>
 
 																													<div
-	class="page-element widget-container page-element-type-headline widget-headline "
-	id="element-18"
+	class="page-element widget-container page-element-type-image widget-image "
+	id="element-119"
 	>
 
 	
-<div class="contents"><h3><p style="text-align: center;  "><font color="#3870d0">All Around the World.</font></p></h3></div>
-</div>
-
-																													<div
-	class="page-element widget-container page-element-type-text widget-text "
-	id="element-72"
-	>
-
-	<div class="contents"><p style="text-align: center;  ">TotemLC is not only for the US! We are going to make it possible everywhere else around the world too! Join our Community and rank in real time.&nbsp;</p></div>
-</div>
-
-																													<div
-	class="page-element widget-container page-element-type-headline widget-headline "
-	id="element-120"
-	>
-
-	
-<div class="contents"><h1><p style=" "><font color="#0090ca">Android Coming Soon</font></p></h1></div>
+<div class="contents">
+						<img
+				src="//v.fastcdn.co/u/22192480/19726566-0-water-abstract-maps-.jpg"
+									style="height: 100%; width: 100%; margin-top: 0px;"
+								alt=""
+			/>
+		
+	</div>
 </div>
 
 																																		</div>
@@ -2352,15 +2275,6 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 </div>
 
 																													<div
-	class="page-element widget-container page-element-type-headline widget-headline "
-	id="element-78"
-	>
-
-	
-<div class="contents"><h2><p style="text-align: center;  "><font color="#0090ca">Download it today, Start Ranking!</font></p></h2></div>
-</div>
-
-																													<div
 	class="page-element widget-container page-element-type-text widget-text "
 	id="element-43"
 	>
@@ -2369,11 +2283,12 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 </div>
 
 																													<div
-	class="page-element widget-container page-element-type-text widget-text "
-	id="element-79"
+	class="page-element widget-container page-element-type-headline widget-headline "
+	id="element-78"
 	>
 
-	<div class="contents"><p style="text-align: center;  ">Coming soon!!&nbsp;</p><p style="text-align: center;  ">Phase 2 :&nbsp;Machine Learning and Making your own Profiles&nbsp;</p></div>
+	
+<div class="contents"><h2><p style="text-align: center;  "><font color="#0090ca">Download it today, Start Ranking!</font></p></h2></div>
 </div>
 
 																													<div
@@ -2405,7 +2320,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 	{
 		width: 287px;
 		height: 57px;
-		z-index: 27;
+		z-index: 25;
 		line-height: 23px;
 		font-size: 20px;
 		font-weight: 700;
@@ -2420,10 +2335,10 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 		{
 			body:not( .tablet ) #element-101 .dynamic-button, body:not( .tablet ) #element-101 .image-button
 			{
-				width: 365px;
-				height: 69px;
-				z-index: 27;
-				line-height: 69px;
+				width: 287px;
+				height: 57px;
+				z-index: 25;
+				line-height: 57px;
 				font-size: 20px;
 			}
 		}
@@ -2528,17 +2443,17 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 	ijQuery( document ).on( 'ready', function()
 	{
 		var cookie_name = 'instapage-visit-6646436';
-		var parameters = {"owner_id":1793631,"customer_id":2088426,"user_id":1793631,"page_id":6646436,"published_version":21,"quantity":1,"static_page":false,"variation_name":"A","variation_id":1,"linked_variation_id":2,"initial_responsive_mode":null,"visitor_ip":"104.197.158.118","useragent":""};
+		var parameters = {"owner_id":1793631,"customer_id":2088426,"user_id":1793631,"page_id":6646436,"published_version":28,"quantity":1,"static_page":false,"variation_name":"A","variation_id":1,"linked_variation_id":2,"initial_responsive_mode":null,"visitor_ip":"35.184.175.142","useragent":""};
 		var id = '6646436';
 		var track_returning_visitors = true;
 
 		var project_id = '56c2f3d796773d0a7e96a536';
 		var event = 'visit';
-		var key = '3f15141cb7e634bff50f2f661751216aff5c4566653ecb266761b77184f5022d9da45d6568e8e23d7062c3e67cd8ac9e5fc3092eba664f2490a1ef32065dfa908b7a9c6329b2d78576dc7bcbaa19eae743b8c9d26326fe47a41c57f021667318e67e6c92087909dd5d0574348923b5c2caf5b828d7ade8c6cd6ced4f708886b38164bed3e781d4c65b003d418d2c7f9f';
+		var key = '36d631b69631946d9033cdfc70f50a0e022a31d104ce9228da23b798eafe8789bd5f268c384607fdd382918db7d5cdce4d8dfb7cbb491f69222d373bd6143c06913a332e3570f37c54c94c4f7619e2d109193c70c4cdecab07ad386e77b77c55e923742177a9c0b315910e224d045d7dccd3f6733724b55d6a8c1b14acf143ca6ece464619991c257a5c83f8dea0e558';
 
 		parameters.javascript = true;
 		parameters.variation = parameters.variation_name;
-		parameters.generation_time = '149';
+		parameters.generation_time = '116';
 		parameters.responsive_mode = null;
 
 		if( window.__mobile_version === 2 && window.innerWidth < 600 && window.__variant.indexOf( '-mobile' ) < 0 )
@@ -2600,7 +2515,7 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 
 </script>
 <noscript class="instapage-noscrap">
-	<img href="//anthill.instapage.com/projects/56c2f3d796773d0a7e96a536/events/visit?api_key=3f15141cb7e634bff50f2f661751216aff5c4566653ecb266761b77184f5022d9da45d6568e8e23d7062c3e67cd8ac9e5fc3092eba664f2490a1ef32065dfa908b7a9c6329b2d78576dc7bcbaa19eae743b8c9d26326fe47a41c57f021667318e67e6c92087909dd5d0574348923b5c2caf5b828d7ade8c6cd6ced4f708886b38164bed3e781d4c65b003d418d2c7f9f&data=eyJvd25lcl9pZCI6MTc5MzYzMSwiY3VzdG9tZXJfaWQiOjIwODg0MjYsInVzZXJfaWQiOjE3OTM2MzEsInBhZ2VfaWQiOjY2NDY0MzYsInB1Ymxpc2hlZF92ZXJzaW9uIjoyMSwicXVhbnRpdHkiOjEsInN0YXRpY19wYWdlIjpmYWxzZSwidmFyaWF0aW9uX25hbWUiOiJBIiwidmFyaWF0aW9uX2lkIjoxLCJsaW5rZWRfdmFyaWF0aW9uX2lkIjoyLCJpbml0aWFsX3Jlc3BvbnNpdmVfbW9kZSI6bnVsbCwidmlzaXRvcl9pcCI6IjEwNC4xOTcuMTU4LjExOCIsInVzZXJhZ2VudCI6IiIsImdlbmVyYXRpb25fdGltZSI6MjZ9" >
+	<img href="//anthill.instapage.com/projects/56c2f3d796773d0a7e96a536/events/visit?api_key=36d631b69631946d9033cdfc70f50a0e022a31d104ce9228da23b798eafe8789bd5f268c384607fdd382918db7d5cdce4d8dfb7cbb491f69222d373bd6143c06913a332e3570f37c54c94c4f7619e2d109193c70c4cdecab07ad386e77b77c55e923742177a9c0b315910e224d045d7dccd3f6733724b55d6a8c1b14acf143ca6ece464619991c257a5c83f8dea0e558&data=eyJvd25lcl9pZCI6MTc5MzYzMSwiY3VzdG9tZXJfaWQiOjIwODg0MjYsInVzZXJfaWQiOjE3OTM2MzEsInBhZ2VfaWQiOjY2NDY0MzYsInB1Ymxpc2hlZF92ZXJzaW9uIjoyOCwicXVhbnRpdHkiOjEsInN0YXRpY19wYWdlIjpmYWxzZSwidmFyaWF0aW9uX25hbWUiOiJBIiwidmFyaWF0aW9uX2lkIjoxLCJsaW5rZWRfdmFyaWF0aW9uX2lkIjoyLCJpbml0aWFsX3Jlc3BvbnNpdmVfbW9kZSI6bnVsbCwidmlzaXRvcl9pcCI6IjM1LjE4NC4xNzUuMTQyIiwidXNlcmFnZW50IjoiIiwiZ2VuZXJhdGlvbl90aW1lIjoyMH0=" >
 </noscript>
 <!-- end -->
 		
@@ -2610,62 +2525,71 @@ screen and (min-width: 1000px) and (-webkit-max-device-pixel-ratio: 1.5)
 				
 				
 		
-		
-		<script>
-			ijQuery( document ).ready( function()
-			{
-				var $window = ijQuery( window );
+							<script>
+				ijQuery( document ).ready( function()
+				{
+					var $window = ijQuery( window );
+					var last_window_width;
 
-				function setupScroll() {
-					var window_width = $window.width();
-					var $body = ijQuery( 'html, body' );
-					var page_width = ijQuery( '.block-inner' ).first().width();
-					var edges = { left: 0, right: 0 };
-					var max;
-					var width;
-					var scroll_left = 0;
-
-					ijQuery( '.page-element:visible' ).each( function( index, elem )
+					function setupScroll()
 					{
-						var $elem = ijQuery( elem );
-						var left = $elem.position().left;
-						var width = $elem.width();
-						var right = left + width;
-						if ( left < 0 && edges.left > left )
+						var window_width = $window.width();
+						var $body;
+						var page_width;
+						var edges = { left: 0, right: 0 };
+						var max;
+						var width;
+						var scroll_left = 0;
+
+						if ( last_window_width !== window_width )
 						{
-							edges.left = left;
+							$body = ijQuery( 'html, body' );
+							page_width = ijQuery( '.block-inner' ).first().width();
+
+							ijQuery( '.page-element:visible' ).each( function( index, elem )
+							{
+								var $elem = ijQuery( elem );
+								var left = $elem.position().left;
+								var width = $elem.width();
+								var right = left + width;
+								if ( left < 0 && edges.left > left )
+								{
+									edges.left = left;
+								}
+
+								if ( right > page_width && edges.right < right )
+								{
+									edges.right = right;
+								}
+							} );
+
+							max = Math.max( Math.abs( edges.left ), edges.right - page_width );
+							width = page_width + max * 2;
+
+							if ( width > window_width )
+							{
+								scroll_left = Math.round( ( width - window_width ) / 2 );
+								$body.css( 'min-width', width + 'px' );
+								$( 'html' ).css( 'overflow-x', 'visible' );
+								$body.scrollLeft( scroll_left );
+							}
+							else
+							{
+								$body.css( 'min-width', '' );
+								$body.scrollLeft( 0 );
+								$( 'html' ).css( 'overflow-x', 'hidden' );
+							}
+
+							last_window_width = window_width;
 						}
-
-						if ( right > page_width && edges.right < right )
-						{
-							edges.right = right;
-						}
-					} );
-
-					max = Math.max( Math.abs( edges.left ), edges.right - page_width );
-					width = page_width + max * 2;
-
-					if ( width > window_width )
-					{
-						scroll_left = Math.round( ( width - window_width ) / 2 );
-						$body.css( 'min-width', width + 'px' );
-						$( 'html' ).css( 'overflow-x', 'visible' );
-						$body.scrollLeft( scroll_left );
 					}
-					else
-					{
-						$body.css( 'min-width', '' );
-						$body.scrollLeft( 0 );
-						$( 'html' ).css( 'overflow-x', 'hidden' );
-					}
-				}
 
-				setupScroll();
+					setupScroll();
 
-				$window
-					.off( 'resize.horizontalScrollHandler' )
-					.on( 'resize.horizontalScrollHandler', setupScroll );
-			} );
-		</script>
-			</body>
+					$window
+						.off( 'resize.horizontalScrollHandler' )
+						.on( 'resize.horizontalScrollHandler', setupScroll );
+				} );
+			</script>
+					</body>
 </html>
